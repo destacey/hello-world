@@ -17,3 +17,6 @@ steps:
     echo Hello MSCI Norman.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+- script: hello.sh
+  displayName: 'Run project script'
